@@ -33,11 +33,13 @@ const Home: NextPage = () => {
       </Head>
 
       <main className={styles.main}>
+        <h1>Select a Dog breed and see Magic happen</h1>
         {error ? (
           <p>Error wa o</p>
         ) : isLoading ? (
           <p>E fi le je ko load</p>
         ) : data ? (
+          
           <select
             onChange={(e) => {
               getBreed(e.target.value);
