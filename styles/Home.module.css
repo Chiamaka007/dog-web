@@ -17,6 +17,10 @@
   align-items: center;
 }
 
+.image {
+  margin-top: 20px;
+}
+
 .footer {
   display: flex;
   flex: 1;
